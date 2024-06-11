@@ -1,16 +1,16 @@
 //  add new storage adapters here
 export const adapterClasses = {
-  b2: ["AdapterBackblazeB2", "@tweedegolf/sab-adapter-backblaze-b2"],
-  s3: ["AdapterAmazonS3", "@tweedegolf/sab-adapter-amazon-s3"],
-  gcs: ["AdapterGoogleCloud", "@tweedegolf/sab-adapter-google-cloud"],
-  local: ["AdapterLocal", "@tweedegolf/sab-adapter-local"],
-  azure: ["AdapterAzureBlob", "@tweedegolf/sab-adapter-azure-blob"],
-  minio: ["AdapterMinio", "@tweedegolf/sab-adapter-minio"],
+  b2: ["AdapterBackblazeB2", "@caporaldead/sab-adapter-backblaze-b2"],
+  s3: ["AdapterAmazonS3", "@caporaldead/sab-adapter-amazon-s3"],
+  gcs: ["AdapterGoogleCloud", "@caporaldead/sab-adapter-google-cloud"],
+  local: ["AdapterLocal", "@caporaldead/sab-adapter-local"],
+  azure: ["AdapterAzureBlob", "@caporaldead/sab-adapter-azure-blob"],
+  minio: ["AdapterMinio", "@caporaldead/sab-adapter-minio"],
 };
 
 // or here for functional adapters
 export const adapterFunctions = {
-  b2f: ["AdapterBackblazeB2F", "@tweedegolf/sab-adapter-backblaze-b2f"],
+  b2f: ["AdapterBackblazeB2F", "@caporaldead/sab-adapter-backblaze-b2f"],
 };
 
 export function getAvailableAdapters(): string {

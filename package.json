@@ -1,11 +1,11 @@
 {
-  "name": "@tweedegolf/storage-abstraction",
+  "name": "@caporaldead/storage-abstraction",
   "version": "2.1.5",
   "description": "Provides an abstraction layer for interacting with a storage; the storage can be local or in the cloud.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "homepage": "https://github.com/tweedegolf/storage-abstraction/",
-  "repository": "https://github.com/tweedegolf/storage-abstraction/",
+  "homepage": "https://github.com/caporaldead/storage-abstraction/",
+  "repository": "https://github.com/caporaldead/storage-abstraction/",
   "dependencies": {
     "@aws-sdk/client-s3": "^3.582.0",
     "@aws-sdk/s3-request-presigner": "^3.582.0",
@@ -77,7 +77,7 @@
     "minio",
     "azure"
   ],
-  "author": "daniel@tweedegolf.nl",
+  "author": "caporaldead@devitek.fr",
   "license": "MIT",
   "publishConfig": {
     "access": "public"

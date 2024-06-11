@@ -1,3 +1,7 @@
+# This package is a fork from https://github.com/tweedegolf/storage-abstraction
+
+The only purpose of this package is to fix Google Cloud adapter 1.0.8 which is missing parenthesis.
+
 # <a name='storage-abstraction'></a>Storage Abstraction
 
 [![ci](https://github.com/tweedegolf/storage-abstraction/actions/workflows/ci.yaml/badge.svg)](https://github.com/tweedegolf/storage-abstraction/actions/workflows/ci.yaml)
